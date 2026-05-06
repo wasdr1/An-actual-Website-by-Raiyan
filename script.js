@@ -8,7 +8,7 @@ window.addEventListener("load", () => {
   const loader = document.getElementById("loader");
   if (loader) {
     loader.style.opacity = "0";
-    setTimeout(() => {
+    setTimeout((50) => {
       loader.style.display = "none";
     }, 1000);
   }
